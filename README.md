@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Estilos CSS personalizados aqui */
+
+        /* Estilos do cabeçalho */
+        .header-bg {
+            background: linear-gradient(45deg, #007BFF, #333);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .header-logo {
+            max-width: 100%;
+            text-align: center;
+        }
+
+        .header-logo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .botao-container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        /* Estilos dos botões Entrar e Cadastrar */
+        .botao-login {
+            background: #800080; /* Cor lilás */
+            color: white; /* Texto branco */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 180px;
+            height: 40px;
+            margin: 0 5px; /* Espaçamento entre os botões (margem direita ajustada) */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .botao-login i {
+            font-size: 36px;
+            margin-right: 5px; /* Aproxima os ícones das palavras */
+        }
+
+        .botao-login:hover {
+            background: #4B0082; /* Alterado o background ao passar o mouse (tom mais escuro de lilás) */
+        }
+
+        /* Estilos da primeira frase animada */
+        .animated-bg {
+            background: green; /* Alterado para verde */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            animation: backgroundAnimation 5s linear infinite;
+        }
+
+        /* Estilos da segunda frase animada */
+        .animated-bg-yellow {
+            background: #FFD700; /* Amarelo mais escuro */
+            color: black; /* Alterado para preto */
+            text-align: center;
+            padding: 20px;
+            animation: backgroundAnimation 5s linear infinite;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .frase h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        /* Estilos dos containers de profissões */
+        .profissao-container {
+            background: linear-gradient(45deg, #007BFF, #333);
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            overflow: hidden;
+            box-sizing: border-box;
+            transition: transform 0.3s;
+        }
+
+        .profissao-container h2, .profissao-container p {
+            word-wrap: break-word;
+            max-height: 4.5em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .icone-profissao {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-bg">
+        Bem-vindo ao melhor de 2023.
+    </div>
+    <header class="header-bg">
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="https://drive.google.com/uc?id=1ZTveii8p5HpiTe76M6UTmODMO6qQTiaG" alt="Logo">
+            </div>
+            <br>
+            <center>O site de escritorios de advogados, designers, programadores, engenheiros, arquitetos, médicos, psicologias e mentores 100% original</center>
+            <br>
+            <p>
+            <center>Login grátis:</center>
+            <br>
+            <div class="botao-container">
+                <button class="botao-login"><i style="font-size: 36px; margin-right: 5px;">&#128275;</i>Entrar</button>
+                <button class="botao-login"><i style="font-size: 36px; margin-right: 5px;">&#128274;</i>Cadastrar</button>
+            </div>
+        </div>
+    </header>
+    <div class="animated-bg-yellow">
+        E faça de tudo por aqui, porque aqui você sempre ganha da melhor forma com Home Office Oficial.
+    </div>
+    <main>
+        <!-- Seções de profissão aqui -->
+    </main>
+</body>
+</html># homeofficeoficial
